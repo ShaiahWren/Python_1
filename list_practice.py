@@ -53,7 +53,7 @@
 
 
 ## MEDIUM 
-## 1
+# 1
 # list_1 = [2, 4, 5]
 # list_2 = [2, 3, 6]
 # new_list = []
@@ -61,7 +61,7 @@
 # for i in range(len(list_1)):
 #     new_list.append(list_1[i] * list_2[i])
 
-# print(f"{list_1} X {list_2} = {new_list}")
+print(f"{list_1} X {list_2} = {new_list}")
 
 ## 2 (attempt 1)
 
