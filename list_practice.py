@@ -74,13 +74,62 @@
 #         new_list[i].append(one_list[i][j] + two_list[i][j])
 # print(new_list)
 
-## 2 (Attempt 2)
+## 2
 
-one_list = [ [1,3], [2,4]]
-two_list = [ [5,2], [1,0]]
-new_list = [ [], []]
+# one_list = [ [1,3], [2,4]]
+# two_list = [ [5,2], [1,0]]
+# new_list = []
+# hold = []
 
-for i in range(len(one_list)):
-    for j in range(len(one_list[i])):
-        new_list[i].append(one_list[i][j] + two_list[i][j])
-print(new_list)
+# for i in range(len(one_list)):
+#     for j in range(len(one_list[i])):
+#         hold.append(one_list[i][j] + two_list[i][j])
+#     new_list.append(hold)
+#     hold = []
+# print(new_list)
+
+## 3
+
+# one_list = [ [1, 3, 5], [2, 3, 4], [2, 3, 4]]
+# two_list = [ [5, 2, 7], [1, 0, 9], [1, 4, 2]]
+# new_list = []
+# hold = []
+
+# for i in range(len(one_list)):
+#     for j in range(len(one_list[i])):
+#         hold.append(one_list[i][j] + two_list[i][j])
+#     new_list.append(hold)
+#     hold = []
+# print(new_list)
+
+## 4
+# my_list = [1, 3, 6, 4, 3, 9]
+# new_list = []
+
+# for i in my_list:
+#     if i not in new_list:
+#         new_list.append(i)
+# print(new_list)
+
+## 5
+
+leet_dict = {
+    'A' : '4',
+    'E' : 3,
+    'G' : 6,
+    'I' : 1,
+    'O' : 0,
+    'S' : 5,
+    'T' : 7
+}
+
+my_string = "Aeg iost"
+uppercase = my_string.upper()
+
+
+for i in range(len(uppercase)):
+
+
+
+
+
